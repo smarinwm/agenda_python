@@ -34,11 +34,11 @@ if __name__ == "__main__":
 
     # Agregar un nuevo contacto
     contacto = {
-        'ID': 5,
-        'nombre': 'Juan',
+        'ID': 6,
+        'nombre': 'Maria',
         'apellido': 'Pérez',
         'telefono': '123456789',
-        'email': 'j.p@example.com',
+        'email': 'm.p@example.com',
         'poblacion': 'Madrid'
     }
     agregar_contacto(contacto, archivo_csv)
