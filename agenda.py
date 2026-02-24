@@ -3,14 +3,15 @@ import csv
 
 def agregar_contacto(contacto, archivo):
     with open(archivo, mode='a', newline='') as file:
-        writer = csv.writer(file)
+
         ID = contacto['ID']
         nombre = contacto['nombre']
         apellido = contacto['apellido']
         telefono = contacto['telefono']
         email = contacto['email']
-        poblacion = contacto['poblacion']  
-
+        poblacion = contacto['poblacion'] 
+        
+        writer = csv.writer(file)
         writer.writerow([ID,nombre, apellido, telefono, email, poblacion])
 
 def cargar_contactos(archivo):
