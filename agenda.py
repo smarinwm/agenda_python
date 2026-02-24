@@ -18,3 +18,4 @@ if __name__ == "__main__":
     archivo_csv = 'listado_personas.csv'
     contactos = cargar_contactos(archivo_csv)
     mostrar_contactos(contactos)
+#hola alumnos
